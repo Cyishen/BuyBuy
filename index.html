@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyBuyCart</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <div class="container">
+                <div class="car-page-header">
+                    <div class="cart-page-logo-name">BUB</div>
+                </div>
+                <div class="cart-page-searchBar">
+                    <div class="searchbar-container">
+                        <input class="searchbar-input">
+                        <button type="button">搜尋</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 商品標題 -->
+        <div class="shopping">
+            <div class="left-side">
+                <div class="head_row">
+                    <div class="check left">
+                        <input type="checkbox">
+                        <span class="product-name">商品</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-side">
+                <div class="head_row">
+                    <div class="price right">單價</div>
+                    <div class="number right">数量</div>
+                    <div class="subtotal right">總計</div>
+                    <div class="ctrl right">操作</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 渲染區 -->
+        <div id="renderContainer" class="render" style="display: none;"></div>
+
+        <!-- 算法區 -->
+        <div class="sum_area">
+            <div class="pay-total">總金額：<span id="price_num">0.00</span></div>
+            <div class="pay">去買單</div>
+        </div>
+        
+        <!-- 商品區 -->
+        <div id="productsContainer" class="item"></div>
+        
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
