@@ -25,28 +25,28 @@ const products = [
         proPrice: '$150'
     },
     {
-        imgUrl: '#',
-        proName: '商品6',
+        imgUrl: 'img/MacBook Pro13.png',
+        proName: 'MacBook Pro',
         proPrice: '$160'
     },
     {
-        imgUrl: '#',
-        proName: '商品7',
+        imgUrl: 'img/MacBook Air13.png',
+        proName: 'MacBook Air',
         proPrice: '$170'
     },
     {
-        imgUrl: '#',
-        proName: '商品8',
+        imgUrl: 'img/iMac.png',
+        proName: 'iMac',
         proPrice: '$180'
     },
     {
-        imgUrl: '#',
-        proName: '商品9',
+        imgUrl: 'img/AirPods3.png',
+        proName: 'AirPods3',
         proPrice: '$190'
     },
     {
-        imgUrl: '#',
-        proName: '商品10',
+        imgUrl: 'img/AirPods Max.png',
+        proName: 'AirPods Max',
         proPrice: '$200'
     }
 ]
