@@ -199,3 +199,8 @@ const products = [
             updateTotalAmount();
         }
     });
+
+ const pay = document.querySelector('.pay')
+    pay.addEventListener('click', () => {
+        alert('小朋友才選擇👶!! 我要買爆🤣🤣🤣')
+    })
